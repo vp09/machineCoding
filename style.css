@@ -16,14 +16,23 @@ th {
   padding: 1rem;
   border: 1px solid brown;
 }
+
+input {
+  border: 1px solid gray;
+  border-radius: 2rem;
+  width: 50%;
+  height: 2rem;
+  margin: 2rem;
+}
+.dynamic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .tabs {
   display: flex;
   justify-content: center;
-}
-.searchTab {
-  border: 0px;
-  border-radius: 2rem;
-  height: 2rem;
 }
 #createTable {
   color: brown;
